@@ -1,3 +1,6 @@
+
+/* Font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,400&family=Rubik+Vinyl&family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -29,4 +32,113 @@ nav ul li a{
 }
 .fa-solid{
     margin: 30px;
+}
+
+/* homepage section  */
+
+.homepage{
+    display: flex;
+    /* align-items: center; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.homepage-title{
+    align-items: center;
+}
+.homepage-title h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(70, 62, 62);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.homepage-title p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    width: 180px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: rgb(233, 47, 109);
+    border-style: none;
+    color: white;
+}
+ /* market leader section  */
+ hr{
+    margin: 20px;
+ }
+.market-leader{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.market-leader img{
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+ /* Popular Collection Section */
+ .products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10%;
+ }
+ .fa-solid{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: goldenrod;
+ }
+h3{
+    font-size: 24px;
+    padding: 15px;
+}
+ .see{
+    color: red;
+    align-items: right;
+    margin-left: 78%;
+    padding-top: 0;} 
+
+ 
+h1{
+    text-align: center;
+    margin-top: 20px; 
+    padding-top: 20px;
+}
+
+
+ .product-page{
+    display: flex;
+    gap: 30px;
+    margin-left: 25px;
+}
+
+
+div p{
+ padding-left:20px ;
+} 
+.btn-primary1{
+    width: 180px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: rgb(233, 47, 109);
+    border-style: none;
+    color: white;
+    padding-left: 27px;
+    margin-left: 15px;
+}
+/*  */
+Footer Section  */ */
+.footer{
+    margin-top: 40px;
+    background-color:rgb(11, 0, 49) ;
+    color: white;
+} 
+.footer, p, i{
+    text-align: center;
+    padding: 5px;
+}
+.footer, .fa-brands i{
+    gap: 50px;
 }
