@@ -7,7 +7,7 @@
 }
 
 /* header section style */
-body{
+.top{
     background: beige;
 }
 nav{
@@ -39,6 +39,7 @@ nav ul li a {
     margin-top: 35px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .top-body-title{
     font-weight: 900;
@@ -67,4 +68,69 @@ nav ul li a {
 .top-body img{
     margin-top: 15px;
     width: 95%;
+    padding-bottom: 30px;
+}
+
+/* Features Section  */
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 95%;
+    margin-left: 12%;
+}
+
+.feature-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+.feature-description{
+    margin-right: 10%;
+}
+.feature-head{
+    font-size: 28px;
+}
+
+/* love and enjoy section style */
+
+.love-enjoy{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width:85%;
+    margin-left: 12%;
+    margin-top: 35px;
+   
+}
+.love-enjoy-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    background-color: azure;
+    
+}
+.love-enjoy-description h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    
+}
+.love-enjoy img{
+    width: 45%;
+}
+button{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #FF900E ;
+    margin-left: 40%;
+    margin-top: -100px;
+    border-radius: 5px;
+    border-style: none;
+    color: aliceblue;
 }
