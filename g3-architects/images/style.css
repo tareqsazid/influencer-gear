@@ -123,6 +123,7 @@ nav ul li a {
 .love-enjoy img{
     width: 45%;
 }
+/* button item style */
 button{
     width: 300px;
     height: 180px;
@@ -134,3 +135,32 @@ button{
     border-style: none;
     color: aliceblue;
 }
+
+/* fact section  */
+.facts{
+    margin-left: 12%;
+    margin-top: 30px;
+}
+.facts h2{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+ /* icon section  */
+ .icons{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+ }
+ .img-design{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    border: 1px solid  #FF900E;
+    margin-top: 25px;
+    padding: 15px;
+    align-items: center;
+ }
+ .img-design icon{
+    width: 5px;
+ }
