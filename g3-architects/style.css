@@ -3,13 +3,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
-
+main{
+    margin: 0;
+    height: 100vh;
+}
 /* header section style */
 .top{
     background: beige;
- 
 }
 nav{
     display: flex;
@@ -17,9 +19,14 @@ nav{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 25px;
+    list-style-type: none;
+    align-items: center;
 }
 nav > ul{
     display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 25px;
 
 }
 nav > ul li{
@@ -66,6 +73,7 @@ ul li a {
     margin-top: 15px;
     margin-bottom: 15px;
     color: aliceblue;
+    margin-left: 0;
 }
 .top-body img{
     margin-top: 15px;
@@ -116,6 +124,11 @@ ul li a {
     background-color: azure;
     
 }
+.love-enjoy-description h3{
+    border-left: 4px solid #FF900E;
+    padding-left: 2px;
+}
+
 .love-enjoy-description h4{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -226,11 +239,13 @@ button{
     background-color: rgb(243, 234, 222);
     width: 90%;
     height: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
+
 .footer p{
     text-align: center;
     padding-top: 30px;
+    
 }
 
 /* Media Quary  */
