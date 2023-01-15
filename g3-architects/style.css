@@ -262,6 +262,8 @@ button{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        overflow: hidden;
+        padding-left: 0;
     }
     .feature-team{
         display: grid;
@@ -276,7 +278,6 @@ button{
         font-family: 'Times New Roman', Times, serif ;
     }
     .images{
-      
         flex-direction: column;
     }
    
